@@ -15,7 +15,9 @@ type model struct {
 }
 
 var (
+	// Жирная зелёная граница
 	borderStyle = lipgloss.NewStyle().Bold(true).Foreground(lipgloss.Color("#00FF00"))
+	// Цвет подсветки для выбранного пункта
 	cursorStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("#FF5F87"))
 )
 
